@@ -1,0 +1,52 @@
+{
+	"count": 8,
+	"scripts": [
+		{
+			"path": "README.md",
+			"url": "https://reduck.ai/use-cases/linkedin-mcp",
+			"lastmod": "2026-10-28"
+		},
+		{
+			"address": "@reduck/linkedin.com/get_profile_experience",
+			"path": "scripts/linkedin.com/get_profile_experience.md",
+			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/get_profile_experience",
+			"lastmod": "2026-10-22"
+		},
+		{
+			"address": "@reduck/linkedin.com/get_profile_posts",
+			"path": "scripts/linkedin.com/get_profile_posts.md",
+			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/get_profile_posts",
+			"lastmod": "2026-10-22"
+		},
+		{
+			"address": "@reduck/linkedin.com/get_profile",
+			"path": "scripts/linkedin.com/get_profile.md",
+			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/get_profile",
+			"lastmod": "2026-10-29"
+		},
+		{
+			"address": "@reduck/linkedin.com/list_inbox",
+			"path": "scripts/linkedin.com/list_inbox.md",
+			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/list_inbox",
+			"lastmod": "2026-11-09"
+		},
+		{
+			"address": "@reduck/linkedin.com/search_people",
+			"path": "scripts/linkedin.com/search_people.md",
+			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/search_people",
+			"lastmod": "2026-11-06"
+		},
+		{
+			"address": "@reduck/linkedin.com/search_posts",
+			"path": "scripts/linkedin.com/search_posts.md",
+			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/search_posts",
+			"lastmod": "2026-10-30"
+		},
+		{
+			"address": "@reduck/linkedin.com/send_message",
+			"path": "scripts/linkedin.com/send_message.md",
+			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/send_message",
+			"lastmod": "2026-11-09"
+		}
+	]
+}
