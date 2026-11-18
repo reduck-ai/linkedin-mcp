@@ -1,10 +1,16 @@
 {
-	"count": 8,
+	"count": 9,
 	"scripts": [
 		{
 			"path": "README.md",
 			"url": "https://reduck.ai/use-cases/linkedin-mcp",
-			"lastmod": "2026-10-28"
+			"lastmod": "2026-11-17"
+		},
+		{
+			"address": "@reduck/linkedin.com/create_post",
+			"path": "scripts/linkedin.com/create_post.md",
+			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/create_post",
+			"lastmod": "2026-11-01"
 		},
 		{
 			"address": "@reduck/linkedin.com/get_profile_experience",

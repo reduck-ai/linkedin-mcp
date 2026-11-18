@@ -3,7 +3,7 @@
 LinkedIn has no official MCP server, and its self-serve API cannot search people. This LinkedIn MCP server lets Claude, ChatGPT or Cursor search people and posts, read profiles, experience and your inbox, and message your connections, from your own signed-in LinkedIn.
 
 - Product: Reduck MCP
-- Updated: 2026-10-28
+- Updated: 2026-11-17
 
 ![One integration, every website](https://docs.reduck.ai/overview/one-integration-every-website.png)
 
@@ -21,7 +21,7 @@ LinkedIn gives an agent no way in. It publishes no MCP server, and its self-serv
 
 ## How Reduck does it
 
-Reduck is a hosted MCP server whose LinkedIn scripts run in your own Chrome, where you are already signed in to LinkedIn. Your agent sees what you see: people search with LinkedIn's filters, full profiles with experience and education, any member's recent posts, post search, your inbox, and messages to your connections. It sends nothing unless you ask. There is no developer app, no install on your machine and no second LinkedIn session somewhere else.
+Reduck is a hosted MCP server whose LinkedIn scripts run in your own Chrome, where you are already signed in to LinkedIn. Your agent sees what you see: people search with LinkedIn's filters, full profiles with experience and education, any member's recent posts, post search, your inbox, and messages to your connections. It can also publish a text post or schedule it in LinkedIn's own scheduler. It sends and posts nothing unless you ask. There is no developer app, no install on your machine and no second LinkedIn session somewhere else.
 
 ## Tools
 
@@ -36,6 +36,7 @@ Reduck is a hosted MCP server whose LinkedIn scripts run in your own Chrome, whe
 | `list_inbox` | Your conversations, 20 per page, newest first or matching keywords, with the last message and the unread count | a folder and filter, or keywords; a cursor for the next page |
 | `get_thread` | The messages of one conversation | its url |
 | `send_message` | A message in a conversation or to a connection, with a dry run | a thread or profile url, the text |
+| `create_post` | A text post on your profile, published now or scheduled in LinkedIn's own scheduler up to 90 days ahead, with a dry run | the text; a date and time to schedule it |
 
 Every script answers structured data: names, profile links, positions, dates, the text as LinkedIn shows it and its counts. The summary and the reasoning stay in your agent. The full list of LinkedIn scripts is in the [catalogue](https://reduck.ai/explore?host=linkedin.com).
 
@@ -84,6 +85,10 @@ Those are hosted services that hold your LinkedIn session on their side: Linked 
 ### Can it send LinkedIn messages for me?
 
 Yes, and only when asked. send_message replies in a conversation from your inbox or messages a 1st-degree connection or an open profile by profile URL; InMail is not handled. It has a dry run that types the message and stops before the Send click, so the agent can show you the exact text and the recipient first.
+
+### Can it publish or schedule my LinkedIn posts?
+
+Yes, after your OK. create_post publishes a text post on your own profile now, or schedules it in LinkedIn's own scheduler for a date and quarter-hour up to 90 days ahead, so it appears in your Scheduled posts on LinkedIn like one you set yourself. It can add @mentions, and one image when it posts now; an image cannot be scheduled, and polls, articles and company pages are not handled. get_scheduled_posts lists the queue and remove_scheduled_post cancels a scheduled post. A dry run types the post and stops before the final click.
 
 ### Will LinkedIn restrict my account?
 
