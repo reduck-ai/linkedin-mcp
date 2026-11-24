@@ -3,7 +3,7 @@
 LinkedIn has no official MCP server, and its self-serve API cannot search people. This LinkedIn MCP server lets Claude, ChatGPT or Cursor search people and posts, read profiles, experience and your inbox, and message your connections, from your own signed-in LinkedIn.
 
 - Product: Reduck MCP
-- Updated: 2026-11-17
+- Updated: 2026-11-23
 
 ![One integration, every website](https://docs.reduck.ai/overview/one-integration-every-website.png)
 

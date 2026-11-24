@@ -4,7 +4,7 @@
 		{
 			"path": "README.md",
 			"url": "https://reduck.ai/use-cases/linkedin-mcp",
-			"lastmod": "2026-11-17"
+			"lastmod": "2026-11-23"
 		},
 		{
 			"address": "@reduck/linkedin.com/create_post",
@@ -22,13 +22,13 @@
 			"address": "@reduck/linkedin.com/get_profile_posts",
 			"path": "scripts/linkedin.com/get_profile_posts.md",
 			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/get_profile_posts",
-			"lastmod": "2026-10-22"
+			"lastmod": "2026-11-23"
 		},
 		{
 			"address": "@reduck/linkedin.com/get_profile",
 			"path": "scripts/linkedin.com/get_profile.md",
 			"url": "https://reduck.ai/explore/scripts/reduck/linkedin.com/get_profile",
-			"lastmod": "2026-11-11"
+			"lastmod": "2026-11-23"
 		},
 		{
 			"address": "@reduck/linkedin.com/list_inbox",
